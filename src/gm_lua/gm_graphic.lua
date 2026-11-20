@@ -1,0 +1,15 @@
+﻿ERenderRoundedRectangle=ffi.cast("int (*)(SDL_Renderer *, Sint16, Sint16,Sint16, Sint16, Sint16, Uint8, Uint8, Uint8, Uint8)",roundedRectangleRGBA);
+ERenderRoundedBox=ffi.cast("int (*)(SDL_Renderer *, Sint16, Sint16 , Sint16 ,Sint16, Sint16 , Uint8, Uint8 , Uint8, Uint8)",roundedBoxRGBA);
+ERenderCircle=ffi.cast("int (*)(SDL_Renderer *, Sint16, Sint16, Sint16, Uint8, Uint8 , Uint8, Uint8)",circleRGBA);
+ERenderFilledCircle=ffi.cast("int (*)(SDL_Renderer *, Sint16, Sint16, Sint16, Uint8, Uint8 , Uint8, Uint8)",filledCircleRGBA);
+ERenderArc=ffi.cast("int (*) (SDL_Renderer *, Sint16, Sint16 , Sint16 , Sint16 , Sint16,Uint8 , Uint8 , Uint8 , Uint8 )",arcRGBA);
+ERenderEllipse=ffi.cast("int (*) (SDL_Renderer *, Sint16, Sint16 ,Sint16 , Sint16 , Uint8 , Uint8 , Uint8 , Uint8 )",ellipseRGBA);
+ERenderFilledEllipse=ffi.cast("int (*) (SDL_Renderer *, Sint16, Sint16 ,Sint16 , Sint16 , Uint8 , Uint8 , Uint8 , Uint8 )",filledEllipseRGBA);
+ERenderPie=ffi.cast("int (*) (SDL_Renderer, Sint16, Sint16 , Sint16 ,Sint16 , Sint16 , Uint8 , Uint8 , Uint8 , Uint8 )",pieRGBA);
+ERenderFilledPie=ffi.cast("int (*) (SDL_Renderer, Sint16, Sint16 , Sint16 ,Sint16 , Sint16 , Uint8 , Uint8 , Uint8 , Uint8 )",filledPieRGBA);
+ERenderTrigon=ffi.cast("int (*)(SDL_Renderer *, Sint16, Sint16, Sint16, Sint16, Sint16, Sint16,Uint8 , Uint8 , Uint8 , Uint8 )",trigonRGBA);
+ERenderFilledTrigon=ffi.cast("int (*)(SDL_Renderer *, Sint16, Sint16, Sint16, Sint16, Sint16, Sint16,Uint8 , Uint8 , Uint8 , Uint8 )",filledTrigonRGBA);
+ERenderThickLine=ffi.cast("int (*) (SDL_Renderer *, Sint16 , Sint16 , Sint16 , Sint16 ,Uint8, Uint8 , Uint8 , Uint8 , Uint8 )",thickLineRGBA);
+ERenderAACircle=ffi.cast("int (*)(SDL_Renderer *, Sint16, Sint16, Sint16, Uint8, Uint8 , Uint8, Uint8)",aacircleRGBA);
+ERenderAAEllipse=ffi.cast("int (*) (SDL_Renderer *, Sint16, Sint16 ,Sint16 , Sint16 , Uint8 , Uint8 , Uint8 , Uint8 )",aaellipseRGBA);
+ERenderAATrigon=ffi.cast("int (*)(SDL_Renderer *, Sint16, Sint16, Sint16, Sint16, Sint16, Sint16,Uint8 , Uint8 , Uint8 , Uint8 )",aatrigonRGBA);

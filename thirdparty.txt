@@ -1,0 +1,10 @@
+Below are the links to the third-party libraries that this project depends on:
+cJSON: https://github.com/DaveGamble/cJSON?spm=5176.28103460.0.0.3a9a2988vSqbQJ
+SDL2: https://github.com/libsdl-org/SDL?spm=5176.28103460.0.0.3a9a2988vSqbQJ
+SDL2_gfx: https://github.com/ferzkopp/SDL2_gfx
+SDL2_image: https://github.com/libsdl-org/SDL_image?spm=5176.28103460.0.0.3a9a2988vSqbQJ
+SDL2_mixer: https://github.com/libsdl-org/SDL_mixer?spm=5176.28103460.0.0.3a9a2988vSqbQJ
+SDL2_ttf: https://github.com/libsdl-org/SDL_ttf?spm=5176.28103460.0.0.3a9a2988vSqbQJ
+nlohmann: https://github.com/nlohmann/json
+luajit: https://github.com/LuaJIT/LuaJIT?spm=5176.28103460.0.0.3a9a2988vSqbQJ
+gperftools: https://github.com/gperftools/gperftools?spm=5176.28103460.0.0.3a9a2988vSqbQJ
