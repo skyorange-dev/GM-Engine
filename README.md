@@ -78,9 +78,3 @@ Fork 本仓库
 提交更改：git commit -m "feat: 添加 xxx"
 推送分支：git push origin feature/xxx
 提交 Pull Request
-
-```bash
-git clone https://github.com/skyorange-dev/GM-Engine.git
-cd GM-Engine
-cmake -B build -DCMAKE_TOOLCHAIN_FILE=[vcpkg根目录]/scripts/buildsystems/vcpkg.cmake
-cmake --build build --config Release
