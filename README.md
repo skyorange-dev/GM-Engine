@@ -1,6 +1,6 @@
 #  GM Engine
 
-**其他语言版本：** [English](README.md) | [简体中文](README_zh-CN.md)
+**其他语言版本：** [English](README_en.md) | [简体中文](README.md)
 
 GM Engine是一个专注于游戏领域的2D窗口应用开发框架，它的核心功能与2D游戏引擎相似，但又比其自由的多。如果你想自由的开发游戏同时又想比直接用库手搓更有效率，那不妨试试这个项目。
 
